@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Photo Gallery - Event Management Company</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css"> 
+  <style>
+    /* Global Styles (assumed to be already styled as per previous examples) */
+
+/* Gallery Section Styles */
+#gallery {
+  padding: 80px 0; /* Adjust padding as needed */
+}
+
+.card {
+  border: none; /* Remove default card border */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for cards */
+}
+
+.card-img-top {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.card-text {
+  font-size: 1rem; /* Font size for event description */
+}
+
+  </style>
+</head>
+<body>
+
+  
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Event Management Co.</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="events.html">Events</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="services.html">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="booking.html">Booking</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="gallery.html">Gallery</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="last.html">Testimonials</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div style="height: 70px;"></div>
+  <section id="gallery" class="container mt-4">
+    <h2 class="text-center mb-4">Photo Gallery</h2>
+    <div class="row">
+      <div class="col-lg-4 col-md-6 mb-4">
+        <div class="card">
+          <img src="event1.jpg" class="card-img-top" alt="Event 1">
+          <div class="card-body">
+            <p class="card-text">Event Description 1</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 mb-4">
+        <div class="card">
+          <img src="event2.jpg" class="card-img-top" alt="Event 2">
+          <div class="card-body">
+            <p class="card-text">Event Description 2</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 mb-4">
+        <div class="card">
+          <img src="photo.jpeg" class="card-img-top" alt="Event 2">
+          <div class="card-body">
+            <p class="card-text">Event Description 2</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 mb-4">
+        <div class="card">
+          <img src="photo2.jpeg" class="card-img-top" alt="Event 2">
+          <div class="card-body">
+            <p class="card-text">Event Description 2</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 mb-4">
+        <div class="card">
+          <img src="entertainment.jpeg" class="card-img-top" alt="Event 2">
+          <div class="card-body">
+            <p class="card-text">Event Description 2</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 mb-4">
+        <div class="card">
+          <img src="photo3.jpg" class="card-img-top" alt="Event 2">
+          <div class="card-body">
+            <p class="card-text">Event Description 2</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
